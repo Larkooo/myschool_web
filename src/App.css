@@ -2,10 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
+.app_logo_bg {
   height: 40vmin;
   pointer-events: none;
 }
+
+.app_logo_fg {
+  position: inherit;
+  z-index:1;
+  bottom: 0;
+  right:0;
+  height: 40vmin;
+}
+
 
 .App-header {
   background-color: #000000;
