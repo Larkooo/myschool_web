@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" style={{height: "auto", width: "16vh"}}/>
         
-        <p style={{maxWidth: "60vh", fontSize: "4vh"}}>
+        <p style={{maxWidth: "60vh", fontSize: 20, paddingTop: "2vh", paddingBottom: "2vh", paddingLeft: "2vw", paddingRight: "2vw"}}>
         MonÉcole est une application pour les élèves et les enseignants qui permet de faciliter l'accès à l'horaire de classe, les devoirs à remettre, et les annonces de l'école.
         </p>
 
@@ -21,7 +21,7 @@ function App() {
         <br/>
 
         <a 
-        style={{color: "#2c8ed4", fontSize: "3vh"}}
+        style={{color: "#2c8ed4", fontSize: 20}}
         component="button" 
         href="mailto:support@monecole.app"
         variant="body2">
