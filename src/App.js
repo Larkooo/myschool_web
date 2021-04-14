@@ -20,14 +20,13 @@ function App() {
 
         <br/>
 
-        <Link 
-        onClick={() => null}
+        <a 
         style={{color: "#2c8ed4", fontSize: "3vh"}}
         component="button" 
         href="mailto:support@monecole.app"
         variant="body2">
           Contact
-        </Link>
+        </a>
       </header>
     </div>
   );
