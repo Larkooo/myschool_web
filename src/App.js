@@ -2,14 +2,19 @@ import './App.css';
 import logo_bg from './logo_bg.png';
 import logo_fg from './logo_fg.png';
 import { Link } from '@material-ui/core';
-
 import Tilt from 'react-parallax-tilt'
 
 function App() {
   return (
+    
     <div className="App">
+
       <header className="App-header">
-      
+      <a style={{color: "#fff", fontSize: 75, fontWeight: 'bold',}}
+          variant="body2">
+            MonÉcole
+            </a>
+            <a> </a>
 
       <Tilt className="parallax-effect" perspective={500} gyroscope={true} tiltMaxAngleX={10} tiltMaxAngleY={10}>
         <div className="inner-element">
@@ -58,6 +63,15 @@ function App() {
           variant="body2">
             Politique de confidentialité
           </a>
+          <a 
+          style={{color: "#fff", fontSize:20}}>
+              • 
+          </a>
+          <a 
+          style={{color: "#fff", fontSize:20}}>
+             MonÉcole, une compagnie JAQuébec. 
+          </a>
+          
           </div>
         </div>
       </header>
