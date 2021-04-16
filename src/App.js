@@ -24,39 +24,42 @@ function App() {
         <div>
         <Tilt className="Tilt" perspective={1000} tiltMaxAngleX={8} tiltMaxAngleY={8}>
         <div className="Tilt-inner">
-        <a href='https://play.google.com/store/apps/details?id=com.myschool.android&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style={{width: "30vh", height: "auto"}} alt='Disponible sur Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png'/></a>
+        <a href='https://play.google.com/store/apps/details?id=com.myschool.android&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style={{width: "29vh", height: "auto"}} alt='Disponible sur Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png'/></a>
         </div>
       </Tilt> 
         <br/>
         <Tilt className="Tilt" perspective={1000} tiltMaxAngleX={9} tiltMaxAngleY={9}>
-        <a> Bientôt disponible! </a>
+        <a style={{color: "#fff", fontSize:17}}> Bientôt disponible! </a>
         <div className="Tilt-inner">
 
         <a  href='https://apps.apple.com/us/app/mon%C3%A9cole/id1562920377'><img style={{width: "25vh", height: "auto"}} alt='Disponible sur App Store' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a>
         </div>
       </Tilt> 
         </div>
-
         <br/>
-        
-        <a 
-        style={{color: "#2c8ed4", fontSize: 20}}
-        component="button" 
-        href="mailto:support@monecole.app"
-        variant="body2">
-          Contact
-        </a>
-        <a 
-        style={{color: "#fff", fontSize:20}}>
-          ──
-        </a>
-        <a 
-        style={{color: "#2c8ed4", fontSize:18}}
-        component="button" 
-        href="https://docs.google.com/document/d/18UBHAIjJLIMMurPUy6g0UWnxpW1zBGxEJsxwx_DZ0s8/edit?usp=sharing"
-        variant="body2">
-          Politique de confidentialité
-        </a>
+
+        <div id="footer">
+          <div id="footer_content">
+          <a 
+          style={{color: "#2c8ed4", fontSize: 20}}
+          component="button" 
+          href="mailto:support@monecole.app"
+          variant="body2">
+            Contact 
+          </a>
+          <a 
+          style={{color: "#fff", fontSize:20}}>
+              • 
+          </a>
+          <a 
+          style={{color: "#2c8ed4", fontSize:18}}
+          component="button" 
+          href="https://docs.google.com/document/d/18UBHAIjJLIMMurPUy6g0UWnxpW1zBGxEJsxwx_DZ0s8/edit?usp=sharing"
+          variant="body2">
+            Politique de confidentialité
+          </a>
+          </div>
+        </div>
       </header>
     </div>
   );

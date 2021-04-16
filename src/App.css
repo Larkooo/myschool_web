@@ -50,7 +50,19 @@
   transform: translateZ(60px);
 }
 
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(8, 8, 8);
+  text-align: center;
 
+}
+#footer_content {
+  margin-bottom: 1vh;
+
+}
 
 @keyframes App-logo-spin {
   from {
