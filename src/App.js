@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
       
 
-      <Tilt className="parallax-effect" perspective={1000} gyroscope={true} tiltMaxAngleX={8} tiltMaxAngleY={8}>
+      <Tilt className="parallax-effect" perspective={500} gyroscope={true} tiltMaxAngleX={10} tiltMaxAngleY={10}>
         <div className="inner-element">
           <img src={logo_fg} className="app_logo_fg" alt="logo_fg" style={{height: "auto", width: "16vh"}}/>
         </div>
@@ -29,8 +29,10 @@ function App() {
       </Tilt> 
         <br/>
         <Tilt className="Tilt" perspective={1000} tiltMaxAngleX={9} tiltMaxAngleY={9}>
+        <a> Bientôt disponible! </a>
         <div className="Tilt-inner">
-        <a href='https://apps.apple.com/us/app/mon%C3%A9cole/id1562920377'><img style={{width: "25vh", height: "auto"}} alt='Disponible sur App Store' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a>
+
+        <a  href='https://apps.apple.com/us/app/mon%C3%A9cole/id1562920377'><img style={{width: "25vh", height: "auto"}} alt='Disponible sur App Store' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a>
         </div>
       </Tilt> 
         </div>
@@ -43,6 +45,17 @@ function App() {
         href="mailto:support@monecole.app"
         variant="body2">
           Contact
+        </a>
+        <a 
+        style={{color: "#fff", fontSize:20}}>
+          ──
+        </a>
+        <a 
+        style={{color: "#2c8ed4", fontSize:18}}
+        component="button" 
+        href="https://docs.google.com/document/d/18UBHAIjJLIMMurPUy6g0UWnxpW1zBGxEJsxwx_DZ0s8/edit?usp=sharing"
+        variant="body2">
+          Politique de confidentialité
         </a>
       </header>
     </div>
