@@ -25,24 +25,11 @@ function App() {
         <p style={{maxWidth: "60vh", fontSize: 20, paddingTop: "2vh", paddingBottom: "2vh", paddingLeft: "2vw", paddingRight: "2vw"}}>
         MonÉcole est une application pour les élèves et les enseignants qui permet de faciliter l'accès à l'horaire de classe, les devoirs à remettre, et les annonces de l'école.
         </p>
-
-        <div>
-        <Tilt className="Tilt" perspective={1000} tiltMaxAngleX={8} tiltMaxAngleY={8}>
-        <div className="Tilt-inner">
-        <a href='https://play.google.com/store/apps/details?id=com.myschool.android&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style={{width: "29vh", height: "auto"}} alt='Disponible sur Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png'/></a>
-        </div>
-      </Tilt> 
-        <br/>
-        <Tilt className="Tilt" perspective={1000} tiltMaxAngleX={9} tiltMaxAngleY={9}>
-        <a style={{color: "#fff", fontSize:17}}> Bientôt disponible! </a>
-        <div className="Tilt-inner">
-
-        <a  href='https://apps.apple.com/us/app/mon%C3%A9cole/id1562920377'><img style={{width: "25vh", height: "auto"}} alt='Disponible sur App Store' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a>
-        </div>
-      </Tilt> 
-        </div>
-        <br/>
-
+          <div>
+            <a href='https://play.google.com/store/apps/details?id=com.myschool.android&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img style={{width: "29vh", height: "auto"}} alt='Disponible sur Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png'/></a>
+          <br/>
+            <a  href='https://apps.apple.com/us/app/mon%C3%A9cole/id1562920377'><img style={{width: "25vh", height: "auto"}} alt='Disponible sur App Store' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a>
+          </div>
         <div id="footer">
           <div id="footer_content">
           <a 
