@@ -30,18 +30,13 @@ function App() {
           <br/>
             <a  href='https://apps.apple.com/us/app/mon%C3%A9cole/id1562920377'><img style={{width: "25vh", height: "auto"}} alt='Disponible sur App Store' src='https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg'/></a>
           </div>
-        <div id="footer">
-          <div id="footer_content">
+        
           <a 
           style={{color: "#2c8ed4", fontSize: 20}}
           component="button" 
           href="mailto:support@monecole.app"
           variant="body2">
             Contact 
-          </a>
-          <a 
-          style={{color: "#fff", fontSize:20}}>
-              • 
           </a>
           <a 
           style={{color: "#2c8ed4", fontSize:18}}
@@ -52,15 +47,9 @@ function App() {
           </a>
           <a 
           style={{color: "#fff", fontSize:20}}>
-              • 
-          </a>
-          <a 
-          style={{color: "#fff", fontSize:20}}>
              MonÉcole, une compagnie JAQuébec. 
           </a>
           
-          </div>
-        </div>
       </header>
     </div>
   );
