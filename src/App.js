@@ -18,7 +18,7 @@ function App() {
 
       <Tilt className="parallax-effect" perspective={500} gyroscope={true} tiltMaxAngleX={10} tiltMaxAngleY={10}>
         <div className="inner-element">
-          <img src={logo_fg} className="app_logo_fg" alt="logo_fg" style={{height: "auto", width: "16vh"}}/>
+          <img src={logo_fg} className="app_logo_fg" alt="logo_fg" style={{height: "auto", width: "16vmin"}}/>
         </div>
       </Tilt>
 

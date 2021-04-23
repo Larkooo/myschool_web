@@ -35,8 +35,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 7em;
-  height: 7em;
+  width: 20vmin;
+  height: 20vmin;
   background: url(./logo_bg.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
